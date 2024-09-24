@@ -28,7 +28,7 @@
             <div class="navbar  w-10/12 mx-auto grid grid-cols-3 lg:col-span-1">
                 <div class="navbar-start ">
                     <div>
-                        <button id="home-btn" class="btn btn-sm lg:btn-md btn-active bg-primary font-semibold text-lg lg:text-xl">Home</button>
+                        <button id="home-btn" class="btn btn-sm lg:btn-md btn-active bg-[#B4F461] font-semibold text-lg lg:text-xl">Home</button>
                     </div>
                 </div>
                 <div class="  col-span-2 lg:col-span-1 flex justify-end lg:justify-center items-center">
@@ -38,17 +38,56 @@
                     <h1 class="text-lg lg:text-3xl font-semibold lg:hidden  ">Donate BD</h1>
                     </div>
                 </div>
-                <div class="  col-span-3 lg:col-span-1 flex justify-center lg:justify-end lg:items-center w-full mt-5 lg:mt-0">
-                    <div class="flex justify-center items-center  space-x-3">
+                <div class="col-span-3 lg:col-span-1 flex justify-center lg:justify-end lg:items-center w-full mt-5 lg:mt-0">
+                    <div class="flex justify-center items-center space-x-3">
                         <img src="assets/coin.png" alt="">
                         <h1 class="text-4xl lg:text-2xl font-medium"><span id="required-balance">5500</span>BDT</h1>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- navigation bar section ends -->
+        <!-- navbar section ends -->
     </header>
+    <!-- main section starts -->
+   <main class="w-10/12 mx-auto mt-10 mb-10">
+      <h1 class="text-3xl lg:text-6xl font-bold mb-10 text-center lg:text-start">Important FAQ <span class="text-4xl lg:text-7xl">?</span></h1>
 
-
+      <div class="join join-vertical w-full">
+          <div class="collapse collapse-arrow join-item border">
+              <input type="radio" name="my-accordion-4" checked="checked" />
+              <div class="collapse-title text-xl font-medium">1. What is the Document Object Model (DOM)?</div>
+              <div class="collapse-content">
+                  <p class=" text-textColor">The Document Object Model (DOM) is a programming API for HTML and XML documents. It defines the logical structure of documents and the way a document is accessed and manipulated.</p>
+              </div>
+          </div>
+          <div class="collapse collapse-arrow join-item border">
+              <input type="radio" name="my-accordion-4" />
+              <div class="collapse-title text-xl font-medium">2. How do you select an element from the DOM?</div>
+              <div class="collapse-content">
+                  <p class=" text-textColor">I can select an element by using Tag Name, by ID, by Class Name, by Query Selector and Query Selector All.</p>
+              </div>
+          </div>
+          <div class="collapse collapse-arrow border join-item">
+              <input type="radio" name="my-accordion-4" />
+              <div class="collapse-title text-xl font-medium">3. What is event delegation in the context of the DOM,
+                  and why is it useful?</div>
+              <div class="collapse-content">
+                  <p class=" text-textColor">  Event delegation is a technique in JavaScript that allows us to manage events more efficiently, especially when dealing with multiple elements. Instead of attaching event listeners to each child element individually, we add a single event listener to a common parent element.  </p>
+              </div>
+          </div>
+          <div class="collapse collapse-arrow join-item border">
+              <input type="radio" name="my-accordion-4" />
+              <div class="collapse-title text-xl font-medium">4. How do you manipulate an element's attributes and
+                  styles using the DOM?</div>
+              <div class="collapse-content">
+                  <p class=" text-textColor">We can use methods such as getAttribute, setAttribute, removeAttribute to work with attributes.
+                      <br>
+                      To manipulate an element's style attribute using the DOM, we can use the style property, which allows us to set or modify individual CSS properties for that element.
+                  </p>
+              </div>
+          </div>
+      </div>
+  </main>
+  <script src="./function.js"></script>
 </body>
 </html>
