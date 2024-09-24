@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog page</title>
+    <!-- tailwind + daisyui cdn links -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <style>
+        .inter-font {
+          font-family: "Inter", system-ui;
+          font-optical-sizing: auto;
+          font-style: normal;
+        }        
+    </style>
+</head>
+<!-- body section starts -->
+<body class=" inter-font">
+  <!-- header starts -->
+    <header class=" sticky top-0 left-0 right-0 backdrop-blur-2xl">
+        <section class=" lg:py-1">
+            <div class="navbar  w-10/12 mx-auto grid grid-cols-3 lg:col-span-1">
+                <div class="navbar-start ">
+                    <div>
+                        <button id="home-btn" class="btn btn-sm lg:btn-md btn-active bg-primary font-semibold text-lg lg:text-xl">Home</button>
+                    </div>
+                </div>
+                <div class="  col-span-2 lg:col-span-1 flex justify-end lg:justify-center items-center">
+                    <div class="flex justify-center items-center space-x-2 lg:space-x-4">
+                        <img class="w-8 *:lg:w-10" src="assets/logo.png" alt="">
+                    <h1 class="text-lg lg:text-3xl font-semibold hidden lg:block ">Donate Bangladesh</h1>
+                    <h1 class="text-lg lg:text-3xl font-semibold lg:hidden  ">Donate BD</h1>
+                    </div>
+                </div>
+                <div class="  col-span-3 lg:col-span-1 flex justify-center lg:justify-end lg:items-center w-full mt-5 lg:mt-0">
+                    <div class="flex justify-center items-center  space-x-3">
+                        <img src="assets/coin.png" alt="">
+                        <h1 class="text-4xl lg:text-2xl font-medium"><span id="required-balance">5500</span>BDT</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- navigation bar section ends -->
+    </header>
+
+
+</body>
+</html>
