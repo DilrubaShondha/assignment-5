@@ -71,4 +71,3 @@ document.getElementById('history-button').addEventListener('click', function () 
     document.getElementById('history-section').classList.remove('hidden');
     document.getElementById('donation-container').classList.add('hidden');
 });
-
